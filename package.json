@@ -1,0 +1,29 @@
+{
+  "name": "jest-reporter-simply-fetch",
+  "version": "1.0.0",
+  "description": "Simple jest reporter with data fetch",
+  "main": "jest-reporter-simple-fetch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasPan/jest-reporter-simply-fetch.git"
+  },
+  "keywords": [
+    "jest",
+    "simple",
+    "reporter",
+    "fetch",
+    "node"
+  ],
+  "author": "Lukas Panchartek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukasPan/jest-reporter-simply-fetch/issues"
+  },
+  "homepage": "https://github.com/lukasPan/jest-reporter-simply-fetch#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}

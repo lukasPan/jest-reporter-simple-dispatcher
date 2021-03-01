@@ -8,8 +8,8 @@ There is [node-fetch](https://www.npmjs.com/package/node-fetch) dependecy in thi
 You may install this package as a development dependency:
 
 ```bash
-npm install --save-dev jest-reporter-simple-post-data
-yarn add --dev jest-reporter-simple-post-data
+npm install --save-dev jest-reporter-simple-dispatcher
+yarn add --dev jest-reporter-simple-dispatcher
 ```
 
 ## Configuration
@@ -22,7 +22,7 @@ For example, create a `jest.config.js` file containing:
 module.exports = {
   "verbose": false,
   "reporters": [
-    ["jest-reporter-simple-post-data", {"url": "YOUR SERVER URL"}]
+    ["jest-reporter-simple-dispatcher", {"url": "YOUR SERVER URL"}]
   ]
 };
 ```

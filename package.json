@@ -1,14 +1,14 @@
 {
-  "name": "jest-reporter-simple-post-data",
+  "name": "jest-reporter-simple-dispatcher",
   "version": "1.0.0",
   "description": "Simple jest reporter with post data",
-  "main": "jest-reporter-simple-post-data.js",
+  "main": "jest-reporter-simple-dispatcher.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lukasPan/jest-reporter-simple-post-data.git"
+    "url": "git+https://github.com/lukasPan/jest-reporter-simple-dispatcher.git"
   },
   "keywords": [
     "jest",
@@ -20,9 +20,9 @@
   "author": "Lukas Panchartek",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lukasPan/jest-reporter-simple-post-data/issues"
+    "url": "https://github.com/lukasPan/jest-reporter-simple-dispatcher/issues"
   },
-  "homepage": "https://github.com/lukasPan/jest-reporter-simple-post-data#readme",
+  "homepage": "https://github.com/lukasPan/jest-reporter-simple-dispatcher#readme",
   "dependencies": {
     "node-fetch": "^2.6.1"
   }

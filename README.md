@@ -1,4 +1,4 @@
-# Simple jest reporter with data fetch
+# Simple jest reporter with post data
 
 This jest reporter sends all data it's received after all the test suites have been executed.  
 There is [node-fetch](https://www.npmjs.com/package/node-fetch) dependecy in this project. Project is using `fetch` method for sending data to url defined by user.
@@ -8,8 +8,8 @@ There is [node-fetch](https://www.npmjs.com/package/node-fetch) dependecy in thi
 You may install this package as a development dependency:
 
 ```bash
-npm install --save-dev jest-reporter-simple-fetch
-yarn add --dev jest-reporter-simple-fetch
+npm install --save-dev jest-reporter-simple-post-data
+yarn add --dev jest-reporter-simple-post-data
 ```
 
 ## Configuration
@@ -22,7 +22,7 @@ For example, create a `jest.config.js` file containing:
 module.exports = {
   "verbose": false,
   "reporters": [
-    ["jest-reporter-simple-fetch", {"url": "YOUR SERVER URL"}]
+    ["jest-reporter-simple-post-data", {"url": "YOUR SERVER URL"}]
   ]
 };
 ```

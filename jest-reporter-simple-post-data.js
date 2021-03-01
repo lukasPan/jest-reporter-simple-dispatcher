@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 
-class JestReporterSimpleFetch {
+class JestReporterSimplePostData {
     /**
      * constructor for the reporter
      *
@@ -42,4 +42,4 @@ class JestReporterSimpleFetch {
     }
 }
 
-module.exports = JestReporterSimpleFetch;
+module.exports = JestReporterSimplePostData;

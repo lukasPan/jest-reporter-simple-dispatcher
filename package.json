@@ -1,10 +1,11 @@
 {
   "name": "jest-reporter-simple-dispatcher",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Simple jest reporter with post data",
   "main": "jest-reporter-simple-dispatcher.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postversion": "git push && git push --tags && npm publish"
   },
   "repository": {
     "type": "git",

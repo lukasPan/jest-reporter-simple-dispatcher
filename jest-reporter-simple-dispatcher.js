@@ -20,11 +20,11 @@ class JestReporterSimplePostData {
      * @param {JestTestRunResult} - Results from the test run
      */
     onRunComplete(test, runResults) {
-        this.report(runResults);
+        return this.report(runResults);
     }
 
     report(data) {
-        fetch(this._options.url, {
+        return fetch(this._options.url, {
             method: 'POST',
             body: JSON.stringify(data),
             headers: {

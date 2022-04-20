@@ -33,11 +33,11 @@ class JestReporterSimplePostData {
         })
             .then(response => {
                 if (!response.ok) {
-                    console.log(`ERROR jest reporter response: ${response.statusText}`);
+                    console.log(`ERROR in response of jest reporter: ${response.statusText}`);
                 }
             })
             .catch(e =>
-                console.log(`ERROR during jest reporter run: ${e.stack}`)
+                console.log(`ERROR during run of jest reporter: ${e.stack}`)
             );
     }
 }

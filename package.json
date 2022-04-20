@@ -1,6 +1,6 @@
 {
   "name": "jest-reporter-simple-dispatcher",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Simple jest reporter with post data",
   "main": "jest-reporter-simple-dispatcher.js",
   "scripts": {
